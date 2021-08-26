@@ -1,0 +1,618 @@
+*{margin:0;
+ background-position-x:center;
+ 
+ background-repeat: repeat-y;
+ 
+ }
+
+
+
+.container{
+	
+	width:100%;
+	margin:0 auto;
+	
+}
+ 
+ header{
+	 
+	 background:#E9D7F4;
+	 opacity: .9;
+ }
+
+ .logo{
+	 margin-left:50px;
+	 float:left;
+	 padding:10px 0;
+	 
+ }
+ 
+ header::after{
+	 
+	 content:'';
+	 display:table;
+	 clear:both;
+	 
+ }
+
+ nav{
+	 
+	 float:right;
+	 margin-right:50px;
+
+ }
+ 
+ nav ul {
+	 
+	 margin:0;
+	 padding:0;
+	 list-style:none;
+	 
+ }
+ 
+ nav li {
+	 display: inline-block;
+	 margin-left:40px;
+	 padding-top:40px;
+	 
+ }
+ 
+ nav a {
+	 color: #444;
+	 text-decoration:none;
+	 text-transform: uppercase;
+	 font-size:20px;
+	 font-family:Tw Cen MT Condensed;
+	 padding:20px;
+ }
+ 
+ nav a:hover{
+	 color:#000;
+	 background-color:#C4A1D8;
+	 border-bottom-left-radius:25px;
+	 border-bottom-right-radius:25px;
+	 border-top-left-radius:25px;
+	 border-top-right-radius:25px;
+	
+ }
+ 
+ 
+
+ .header2{
+	 height:150px;
+	 background-color:#FFFF;
+	 opacity: .7;
+ }
+ 
+ .titulo{
+	 padding-top:30px;
+	 text-align:center;
+	 color:#444;
+	 font-size: 50px;
+	 font-family:Tw Cen MT Condensed;
+	 text-shadow: 2px 2px 4px #C4A1D8;
+ }
+ 
+     /* INICIO */
+ 
+ .section1{
+	 
+	 height:100%;
+	 margin-left:70px;
+	 margin-right:70px;
+	 
+	 
+ }
+ 
+ .textbox1{
+	     padding:20px;
+		 background-color: #E9D7F4;
+		 border-radius:10px;
+		 font-family:Tw Cen MT Condensed;
+	     font-size:22px;
+		 color:#444;
+		 opacity: .9;
+ }
+ 
+ .img1{
+	 text-align: center;
+	 border-radius:10px;
+ }
+ 
+ .subtitulo{
+	 height:100px;
+	 opacity:.9;
+	 
+ }
+ 
+.sh2{
+	color:#444;
+	margin-top:30px;
+	text-align:center;
+	font-family:Tw Cen MT Condensed;
+	font-size:40px;
+	opacity: .9;
+	
+	
+}
+ .seccion2{
+	 width:100%;
+	 height:100%;
+	 text-align:center;
+	 opacity: .9;
+	 
+	 
+ }
+ 
+ .bts-left{
+	
+	 border-radius:5px;
+	 height:425px;
+	 width:250px;
+	 background-color:#E9D7F4;
+	 display: inline-block;
+	 margin-bottom:20px;
+	 
+ }
+ 
+  .jin-img{
+	 border-radius:5px;
+	 margin-left: auto;
+     margin-right: auto;
+     display: block;
+	 margin-top:20px;
+}
+
+.desc-jin{
+	margin-top:10px;
+	text-align:center;
+	font-family:Tw Cen MT Condensed;
+	font-size:24px;
+	color:#444;
+	
+}
+ 
+.bts-center-left{
+	 margin:0 auto;
+	 margin-left:50px;
+	 height:425px;
+	 width:250px;
+	 background-color:#E9D7F4;
+	 display: inline-block;
+	 border-radius:5px;
+	 margin-bottom:20px;
+ }
+
+.suga-img{
+	 margin-left: auto;
+     margin-right: auto;
+     display: block;
+	 margin-top:20px;
+	 border-radius:5px;
+}
+
+.desc-suga{
+	margin-top:10px;
+	text-align:center;
+	font-family:Tw Cen MT Condensed;
+	font-size:24px;
+	color:#444;
+	
+}
+
+.bts-center-right{
+	 margin:0 auto;
+	 display: inline-block;
+	 height:425px;
+	 width:250px;
+	 background-color:#E9D7F4;
+	 border-radius:5px;
+	 margin-left:50px;
+	 margin-bottom:20px;
+	 
+ }
+
+ .rm-img{
+	 margin-left: auto;
+     margin-right: auto;
+     display: block;
+	 margin-top:20px;
+	 border-radius:5px;
+ }
+ 
+ .desc-rm{
+	margin-top:10px;
+	text-align:center;
+	font-family:Tw Cen MT Condensed;
+	font-size:24px;
+	color:#444;
+	
+}
+
+  .bts-right{
+	 margin:0 auto;
+	 display: inline-block;
+	 height:425px;
+	 width:250px;
+	 background-color:#E9D7F4;
+	 border-radius:5px;
+	 margin-left:50px;
+	 margin-bottom:20px;
+ }
+ 
+ .jhope-img{
+	 margin-left: auto;
+     margin-right: auto;
+     display: block;
+	 margin-top:20px;
+	 border-radius:5px;
+ }
+ 
+ .desc-jhope{
+	margin-top:10px;
+	text-align:center;
+	font-family:Tw Cen MT Condensed;
+	font-size:24px;
+	color:#444;
+	
+}
+ 
+ .seccion3{
+	 width:100%;
+	 height:100%;
+	 margin-bottom:50px;
+	 text-align:center;
+	 opacity: .9;
+	 
+	 
+ }
+ 
+ .bts2-left{
+	 border-radius:5px;
+	 height:425px;
+	 width:250px;
+	 background-color:#E9D7F4;
+	 display: inline-block;
+	 margin-top:30px;
+	 
+ }
+ 
+.jimin-img{
+	
+	 margin-left: auto;
+     margin-right: auto;
+     display: block;
+	 margin-top:20px;
+	 border-radius:5px;
+	
+}
+
+.desc-jimin{
+	margin-top:10px;
+	text-align:center;
+	font-family:Tw Cen MT Condensed;
+	font-size:24px;
+	color:#444;
+	
+}
+
+.bts2-center{
+
+     margin-left:80px;
+	 height:425px;
+	 width:250px;
+	 background-color:#E9D7F4;
+ 	 display: inline-block;
+     border-radius:5px;
+	 margin-top:30px;
+}
+
+.taehyung-img{
+	
+	 margin-left: auto;
+     margin-right: auto;
+     display: block;
+	 margin-top:20px;
+	 border-radius:5px;
+	
+}
+
+.desc-taehyung{
+	margin-top:10px;
+	text-align:center;
+	font-family:Tw Cen MT Condensed;
+	font-size:24px;
+	color:#444;
+	
+}
+
+.bts2-right{
+	 margin-top:30px;
+     margin-left:80px;
+	 height:425px;
+	 width:250px;
+	 background-color:#E9D7F4;
+	 display: inline-block;
+	 border-radius:5px;
+}	
+ 
+.jungkook-img{
+	
+	 margin-left: auto;
+     margin-right: auto;
+     display: block;
+	 margin-top:20px;
+	 border-radius:5px;
+	
+}
+
+.desc-jungkook{
+	margin-top:10px;
+	text-align:center;
+	font-family:Tw Cen MT Condensed;
+	font-size:24px;
+	color:#444;
+	
+}
+
+
+.piedepagina{
+	 text-align:center;
+	 background-color:#444;
+	 width:100%;
+	 height:200px;
+	 opacity: .9;
+	 margin-top:30px;
+	 
+}
+
+.logo2{
+	margin-top:50px;
+}
+
+.footer-text>p{
+	margin-top:5px;
+	font-size:14px;
+	font-family:arial;
+	color:#FFFF;
+}
+
+   /*HISTORIA*/
+	 
+	 .historia{
+		 
+		 padding:20px;
+		 opacity: .9;
+		 margin-left:70px;
+		 margin-right:70px;
+		 padding:30px;
+		 background-color:#E9D7F4;
+		 border-radius:10px;
+		 font-family:Tw Cen MT Condensed;
+	     font-size:22px;
+		 color:#444;
+	 }
+	 
+	 .debutimg{
+		 border-radius:10px;
+	 }
+	
+
+
+
+     /*DISCOGRAFIA*/
+	 
+	 
+	 
+	 table {
+     opacity: .9;
+     border-spacing: 10px;
+	 border-radius:10px;
+     background-color: #E9D7F4 ;
+     color: #444;
+	 
+	 font-family:Tw Cen MT Condensed;
+	 font-size:22px;
+	 
+	 
+     }
+	 
+	 
+     td {
+	 padding:20px;
+	 border-radius:10px;
+     background-color: #FFFF;
+     color: #444;
+     }
+	 
+	 th{
+		 text-align:center;
+		 padding:20px;
+	     border-radius:10px;
+         background-color: #FFFF;
+         color: #444;
+		 
+	 }
+	 
+	 .tablabts{
+		 padding-bottom:30px;
+	 }
+
+
+
+     /*GALERIA*/ 
+	 
+	 .seccion-galeria{
+		 margin-left:100px;
+		 margin-right:100px;
+		 widows:100%;
+		 height:50%;
+		 background-color:#E9D7F4;
+		 border-radius:10px;
+		 opacity: .9;
+		
+		
+	 }
+	 
+	 .galeria{
+		 
+		 margin-left:70px;
+		 margin-right:70px;
+		 padding-top:4%;
+		 padding-bottom:5%;
+		 text-align:center;
+	 }
+	 
+	 .galeria img{
+		 width:20%;
+		 margin-left:10px;
+		 margin-top:10px;
+		 padding:5px;
+		 border-radius:10px;
+		 transition:1s;
+		 box-shadow: 6px 6px 6px #999;
+		 
+		 
+	 }
+	 
+	 
+	 .galeria  img:hover{
+		 
+		 
+		 transform: scale(1.1);
+		 
+		 
+		 
+		 
+	 }
+	 
+	 .piedepagina4{
+		 
+		 margin-top:15%;
+	     background-color:#444;
+	     width:100%;
+	     height:200px;
+	     text-align:center;
+		 opacity:.9;
+		 
+	 }
+	 
+	 /*LOVEMYSELF*/
+	 
+	 
+	 .btslovemyself{
+		 display:block;
+		 border-radius:10px;
+		 border:30px solid #E9D7F4;
+		 opacity: .9;
+		 
+		 
+	 }
+	 
+	 
+	 .seccion2-lovemyself{
+		 margin-top:10px;
+		 height:100%;
+		 float:left;
+		 padding:20px;
+		 opacity: .9;
+		 margin-left:70px;
+		 margin-right:70px;
+		 
+	 }
+	 
+	 
+	 .textbox-lm{
+		 
+		 padding:30px;
+		 background-color: #E9D7F4;
+		 border-radius:10px;
+		 font-family:Tw Cen MT Condensed;
+	     font-size:22px;
+		 color:#444;
+		 
+	 }
+	 
+	 .videobts{
+		 
+		 margin-top:10px;
+		 border:30px solid #E9D7F4;
+		 border-radius:10px;
+	 }
+	 
+	 .video h3{
+		 text-align:center;
+		 font-size:30px;
+		 font-family:Tw Cen MT Condensed;
+		 color:#444;
+	 }	 
+	 .piedepagina-lovemyself{
+		 margin-top:10%;
+		 background-color:#444;
+	     width:100%;
+	     height:200px;
+	     text-align:center;
+		 opacity:.9;
+		 
+	 }
+	 
+	 /*CONTACTO*/
+	 
+	 form{
+		 width:450px;
+		 margin: auto;
+		 background-color: rgba(233,215,244,0.9);
+		 padding: 10px 20px;
+		 box-sizing: border-box;
+		 border-radius:10px;
+		 font-family:Tw Cen MT Condensed;
+	 }
+	 
+	 form h2{
+		 color:#444;
+		 text-align:center;
+		 font-size:40px;
+		 font-family:Tw Cen MT Condensed;
+		 margin-bottom:20px;
+	 }
+	 
+	 input, textarea{
+		 width:100%;
+		 margin-bottom:20px;
+		 padding:10px;
+		 box-sizing: border-box;
+		 font-size: 20px;
+		 border: none;
+		 border-radius:10px;
+		 font-family:Tw Cen MT Condensed;
+		 color:#444;
+	 }
+	 
+	 textarea{
+		 min-height:100px;
+		 max-height:200px;
+		 min-width:100%;
+		 max-width:100%;
+		
+		 
+	 }
+	 
+	 .boton{
+		 background-color:#C4A1D8;
+		 color:#444;
+		 font-size:25px;
+		 opacity: .9;
+		 padding:20px;
+	 }
+	 
+	 .boton:hover{
+		 cursor:pointer;
+	 }
+
+ 
+   
+ 
+
+ 
+
+ 
